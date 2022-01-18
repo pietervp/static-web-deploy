@@ -12,11 +12,7 @@
     },    
     "routes": [
       {
-        "route": "/index.html",
-        "allowedRoles": ["authenticated"]
-      },
-      {
-        "route": "/",
+        "route": "/*",
         "allowedRoles": ["authenticated"]
       }
     ],
